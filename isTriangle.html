@@ -8,21 +8,36 @@
     <title>Is it a Triangle?</title>
 </head>
 <body>
-        <nav>
-            <a href="isTriangle.html">IsTriangle</a>
-            <a href="quiz.html">quiz</a>
-            <a href="hypo.html">hypotenuse</a>
-            <a href="area.html">area</a>
-        </nav>
+    <div class="container">
+        <div class="navbar">
+        <nav class = "nav-link">
+            <a class = "nav-b" href="isTriangle.html">IsTriangle</a>
+            <a class = "nav-b" href="quiz.html">quiz</a>
+            <a class = "nav-b" href="hypo.html">hypotenuse</a>
+            <a class = "nav-b" href="area.html">area</a>
+        </nav></div>
         <h1>Is it a Triangle????</h1>
         <label for="angle1">angle 1</label>
-        <input type="number"  class = "angle-input"/>
+        <input type="number" min="1" class = "angle-input"/>
         <label for="angle2">angle 2</label>
-        <input type="number"  class = "angle-input"/>
+        <input type="number"  min ="1" class = "angle-input"/>
         <label for="angle3">angle 3</label>
-        <input type="number"  class = "angle-input"/>
-        <button id="check-btn">Is it a triangle?</button>
-        <div id="output"></div>
+        <input type="number" min="1" class = "angle-input"/>
+        <button id="check-btn">Check if it's a triangle!</button>
+        <h3 id="output"></h3>
+
+        <footer class="footer">
+            <div class="foot">
+            <h3>My Social Presence</h3>
+            
+            <a href="https://jiya-agrawal.netlify.app/" class="logo portfolio "><img src="/images/portfolio.png" width="30px"; height="30px"; ></a>
+            <a href="https://github.com/Jia-A" class="logo github "><img src="/images/github.png" width="30px"; height="30px"; ></a>
+            <a href="https://www.instagram.com/jia.or.maybe.jiya/" class="logo insta"><img src="/images/insta.png" width="30px"; height="30px" ></a>
+            <a href="https://www.linkedin.com/in/jiyaagrawal" class="logo linked-in"><img src="/images/linkedin.png" width="30px"; height="30px" ></a>
+            <a href="https://twitter.com/jiya_agrawal2" class="logo twitter "><img src="/images/twitter.png" width="30px"; height="30px"; ></a>
+            
+        </div>  
+        </footer>
         <script src="isTriangle.js"></script>
 </body>
 </html>

@@ -15,5 +15,5 @@ function quizResult(){
         }
         i=i+1;
     }
-    result.innerText = "Your score in the quiz is : "+score;
+    result.innerText = "Your SCORE in the quiz is : "+score;
 }
