@@ -2,7 +2,7 @@ var qForm = document.querySelector(".quiz-form");
 var opBtn = document.querySelector("#check-btn");
 var result = document.querySelector("#output");
 
-const answers = ["90", "right angled"];
+const answers = ["90", "right angled", "equilateral", "acute", "isosceles"];
 opBtn.addEventListener("click", quizResult);
 
 function quizResult(){
